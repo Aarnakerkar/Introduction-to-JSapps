@@ -6,30 +6,30 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Area calculater</h1>
+    <h1>Perimeter calculater</h1>
     <script>
-        var choice=prompt("Welcome to area calculater\n1.rectangla\n2.sqaure\n3.trangle\n4.circle")
+        var choice=prompt("Welcome to perimeter calculater\n1.rectangla\n2.sqaure\n3.trangle\n4.circle")
         if(choice=="1"){
             var l=prompt("enter the length")
             var b = prompt("enter the breath")
-            var result=Number(l)*Number(b)
-            alert("the area is"+result)
+            var result=Number(l)+Number(b)+Number(l)+Number(b)
+            alert("the perimeter is"+result)
         }
          if (choice =="2") {
                 var s = prompt("enter the side")
-                var result = Number(s) * Numbers(s)
-                alert("the area is" + result)
+                var result = Number(s) + Number(s)
+                alert("the perimeter is" + result)
             }
              if (choice == "3") {
                     var h = prompt("enter the height")
                     var b = prompt("enter the base")
-                    var result = Number(h) * Number(b)*0.5
-                    alert("the area is" + result)
+                    var result = Number(h) + Number(b)+0.5
+                    alert("the perimeter is" + result)
                 }
                 if (choice == "4") {
                         var r = prompt("enter the radius")
-                        var result = Number(r) * Number(r)*3.14
-                        alert("the area is" + result)
+                        var result = Number(r) + Number(r)*3.14
+                        alert("the perimeter is" + result)
                     }
             
         
